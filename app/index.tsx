@@ -2,14 +2,13 @@ import {
   StyleSheet,
   Text,
   View,
-  FlatList,
   TouchableOpacity,
   Pressable,
   RefreshControl,
 } from "react-native";
-import React, { memo, useState } from "react";
+import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { AntDesign, FontAwesome5, MaterialIcons } from "@expo/vector-icons";
+import { AntDesign, MaterialIcons } from "@expo/vector-icons";
 import { useImmersiveOverlay } from "@/stores/overlayStore";
 import Animated, {
   ZoomIn,
@@ -84,20 +83,29 @@ const index = () => {
             gap: 10,
           }}
         >
-          <Text style={{ color: "white", fontSize: 24, fontWeight: "bold" }}>
-            {selectedItems.length} items
-          </Text>
-          <Text
+          <View
             style={{
-              color: "#d1b7b7",
-              fontSize: 15,
-              fontWeight: "medium",
-              textAlign: "justify",
+              backgroundColor: "white",
+              padding: 20,
+              borderRadius: 20,
+              gap: 15,
             }}
           >
-            Êtes-vous sûr de vouloir supprimer ces entrées ? Vous ne pouvez pas
-            annuler cette action
-          </Text>
+            <Text style={{ color: "black", fontSize: 24, fontWeight: "bold" }}>
+              {selectedItems.length} items
+            </Text>
+            <Text
+              style={{
+                color: "gray",
+                fontSize: 15,
+                fontWeight: "medium",
+                textAlign: "justify",
+              }}
+            >
+              Êtes-vous sûr de vouloir supprimer ces entrées ? Vous ne pouvez
+              pas annuler cette action
+            </Text>
+          </View>
           <TouchableOpacity
             style={{
               backgroundColor: "white",
