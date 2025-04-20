@@ -3,39 +3,39 @@ import { AntDesign, FontAwesome5, MaterialIcons } from "@expo/vector-icons";
 export const data = [
   {
     id: 1,
-    title: "Ranger sa chambre",
+    title: "Clean the bedroom",
     icon: <FontAwesome5 name="broom" size={20} color="white" />,
-    description: "Faire la poussière, aérer et organiser",
+    description: "Dust, air out, and organize",
   },
   {
     id: 2,
-    title: "Acheter des courses",
+    title: "Buy groceries",
     icon: <FontAwesome5 name="shopping-cart" size={20} color="white" />,
-    description: "Faire le plein de fruits, légumes et produits de base",
+    description: "Stock up on fruits, vegetables, and basic products",
   },
   {
     id: 3,
-    title: "Avancer sur le projet React Native",
+    title: "Progress on React Native project",
     icon: <FontAwesome5 name="laptop-code" size={20} color="white" />,
-    description:
-      "Coder les nouvelles fonctionnalités et corriger quelques bugs",
+    description: "Code new features and fix some bugs",
   },
   {
     id: 4,
-    title: "Aller courir",
+    title: "Go for a run",
     icon: <FontAwesome5 name="running" size={20} color="white" />,
-    description: "Courir pendant 30 minutes au parc pour rester en forme",
+    description: "Run for 30 minutes in the park to stay fit",
   },
   {
     id: 5,
-    title: "Préparer le repas",
+    title: "Prepare a meal",
     icon: <FontAwesome5 name="utensils" size={20} color="white" />,
-    description: "Cuisiner un plat équilibré pour le dîner",
+    description: "Cook a balanced meal for dinner",
   },
   {
     id: 6,
-    title: "Travailler avec Theodo 😉",
+    title: "Work with Theodo 😉",
     icon: <FontAwesome5 name="handshake" size={20} color="white" />,
-    description: "Collaborer en mode agile et apprendre de leur expertise tech",
+    description:
+      "Collaborate in agile mode and learn from their tech expertise",
   },
 ];

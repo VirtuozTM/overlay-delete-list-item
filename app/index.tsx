@@ -102,8 +102,8 @@ const index = () => {
                 textAlign: "justify",
               }}
             >
-              Êtes-vous sûr de vouloir supprimer ces entrées ? Vous ne pouvez
-              pas annuler cette action
+              Are you sure you want to delete these entries? You can't undo this
+              action.
             </Text>
           </View>
           <TouchableOpacity
@@ -118,7 +118,7 @@ const index = () => {
             }}
           >
             <Text style={{ color: "black", fontSize: 15, fontWeight: "bold" }}>
-              Supprimer
+              Delete
             </Text>
           </TouchableOpacity>
           <Pressable
@@ -133,7 +133,7 @@ const index = () => {
             }}
           >
             <Text style={{ color: "white", fontSize: 15, fontWeight: "bold" }}>
-              Annuler
+              Cancel
             </Text>
           </Pressable>
         </View>
@@ -248,13 +248,6 @@ const styles = StyleSheet.create({
     maxWidth: "75%",
     gap: 5,
     marginLeft: 10,
-  },
-  counter: {
-    backgroundColor: "#5f566f",
-    padding: 10,
-    borderRadius: 20,
-    position: "absolute",
-    left: 20,
   },
   counterText: {
     color: "white",
