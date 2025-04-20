@@ -1,9 +1,9 @@
 # 📱 Animated-Delete-Overlay
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/2e836497-d281-4587-aeda-38f3e132f43f"/>
+  <video src="https://github.com/user-attachments/assets/3297a8ea-1498-4ed3-81d6-ad4468003735"/>
 </p>
-    
+ 
 ## 📌 Objectif
 
 Ce projet a été conçu pour apporter une expérience utilisateur immersive et fluide lorsqu’un élément d’une liste est supprimé.
